@@ -1,0 +1,7 @@
+.details {
+  background-color: aquamarine;
+  margin-left: 50px;
+  margin-top: 15px;
+  border-radius: 50px 0 50px 0;
+  position: sticky;
+}

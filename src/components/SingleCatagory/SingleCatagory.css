@@ -1,0 +1,26 @@
+.carts {
+  padding: 10px 0;
+}
+.cart {
+  background-color: bisque;
+  height: 400px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 100px 0 100px 0;
+  position: relative;
+}
+.buton {
+  position: absolute;
+  bottom: 30px;
+}
+.bttn {
+  border: none;
+  outline: none;
+  margin: 0 auto;
+  text-align: center;
+  background-color: orange;
+}
+.bttn:hover {
+  background-color: rgb(255, 0, 0);
+  transition: 0.7s;
+}

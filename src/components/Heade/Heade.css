@@ -1,3 +1,7 @@
+.bg-col {
+  background-color: rgba(5, 45, 46, 0.123);
+  border-radius: 150px 0 150px 0;
+}
 nav {
   display: flex;
   align-items: center;

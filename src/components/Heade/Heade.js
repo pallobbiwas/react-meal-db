@@ -4,7 +4,7 @@ import "./Heade.css";
 const Heade = () => {
   return (
     <div>
-      <nav className="container bg-dark text-white p-4">
+      <nav className="container bg-col text-white p-4">
         <div className="log">
           <h1>Meal the BD</h1>
         </div>
