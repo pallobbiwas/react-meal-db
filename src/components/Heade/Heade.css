@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+}
+.flex li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+.flex li a {
+  font-size: 20px;
+  padding: 0 15px;
+  color: white;
+}
+.flex li a:hover {
+  color: wheat;
+  transition: 0.5s;
+}
