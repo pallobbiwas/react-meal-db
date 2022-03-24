@@ -12,7 +12,8 @@ const Catagorys = () => {
       .then((data) => setCatagory(data.categories));
   }, []);
   const addToDetails = (props) => {
-    setProduct(props);
+    const allProduct = [...product, props]
+    setProduct(allProduct);
   };
 // console.log(product);
   return (
