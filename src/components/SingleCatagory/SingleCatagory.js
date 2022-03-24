@@ -2,7 +2,7 @@ import React from "react";
 import "./SingleCatagory.css";
 
 const SingleCatagory = (props) => {
-  const { strCategory, strCategoryThumb, strCategoryDescription } =
+  const { strCategory, strCategoryThumb, price, strCategoryDescription } =
     props.catagory;
   const addToDetails = props.addToDetails;
   return (
@@ -11,7 +11,7 @@ const SingleCatagory = (props) => {
         <div>
           <h3 className="text-end">{strCategory}</h3>
           <img className="img-fluid" src={strCategoryThumb} alt="" />
-          <h4>price: 40</h4>
+          <h4>price{price}$</h4>
           <p>{strCategoryDescription.slice(0, 100)}</p>
         </div>
         <div className="buton d-flex">

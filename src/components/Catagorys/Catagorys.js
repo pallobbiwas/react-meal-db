@@ -7,7 +7,7 @@ const Catagorys = () => {
   const [catagory, setCatagory] = useState([]);
   const [product, setProduct] = useState([]);
   useEffect(() => {
-    fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
+    fetch("data.json")
       .then((res) => res.json())
       .then((data) => setCatagory(data.categories));
   }, []);
